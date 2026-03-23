@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output Videos
+*.mp4
+*.avi
+*.mov
+
+# Ignore raw data or logos if you don't want them tracked
+# logo.png
+
+# FFmpeg binaries (they are too large for git)
+ffmpeg.exe
+ffmpeg-*-essentials_build/
+*.7z
+*.zip
+
+# Virtual Environments
+venv/
+env/
+.env/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
